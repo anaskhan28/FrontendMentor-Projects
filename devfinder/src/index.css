@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300;400;500;600&display=swap');
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: #0d0e29;
+    font-family: 'Handjet', cursive;
+    color: #ffff;
+    
+}
+
+.dark{
+    background-color: #0d0e29;
+    color: #f4f5f6;
+}
+.light{
+    background-color: #ffff;
+    color: #000;
+}

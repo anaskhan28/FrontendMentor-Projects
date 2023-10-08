@@ -1,0 +1,40 @@
+.searchContainer{
+    padding: 10px 15px;
+    width: 50%;
+    background: hsl(243.66deg 17.89% 29.52%);
+    border-radius: 10px;
+}
+
+.textContainer{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchIcon{
+    font-size: 1.2rem;
+    color: #1078f8c7;
+}
+
+input{
+    flex-grow: 2;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+
+}
+input:focus{
+   outline: none;
+    color: #fff;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background: #1078f8c7;
+    color: #fff;
+    cursor: pointer;
+}
